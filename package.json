@@ -1,0 +1,16 @@
+{
+  "name": "opencmo-submit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sanitized OpenCMO hackathon demo with mocked data and no production integrations.",
+  "type": "module",
+  "scripts": {
+    "install": "node -e \"console.log('No external dependencies required for the sanitized demo.')\"",
+    "dev": "node server.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

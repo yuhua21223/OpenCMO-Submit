@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sanitized OpenCMO hackathon demo with mocked product data and no production integrations."
+    />
+    <title>OpenCMO Submit</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-frame">
+      <aside class="sidebar" aria-label="OpenCMO demo navigation">
+        <a class="brand" href="/" data-route="/">
+          <span class="brand-mark" aria-hidden="true">OC</span>
+          <span>
+            <strong>OpenCMO</strong>
+            <small>Submit demo</small>
+          </span>
+        </a>
+        <nav class="nav-list" id="nav-list"></nav>
+        <div class="safety-card">
+          <p class="eyebrow">Review mode</p>
+          <strong>Mocked backend</strong>
+          <span>No production auth, billing, analytics, worker execution, connectors, or customer data.</span>
+        </div>
+      </aside>
+
+      <main>
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Hackathon-safe product demo</p>
+            <h1 id="page-title">OpenCMO Mission Control</h1>
+          </div>
+          <div class="topbar-actions">
+            <span class="status-dot"></span>
+            <span>Local fixtures only</span>
+          </div>
+        </header>
+
+        <section id="view" class="view" aria-live="polite"></section>
+      </main>
+    </div>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

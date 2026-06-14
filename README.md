@@ -1,10 +1,6 @@
 # OpenCMO Submit
 
-OpenCMO Submit is a sanitized hackathon review repository for the OpenCMO product experience. It showcases the founder-facing dashboard, CurbAlarm Growth Sprint, AI CMO chat shell, approval queue, CMO brief, Studio pipeline, and stable agent surfaces using mocked data only.
-
-## Demo Purpose
-
-This repository is intended to help judges review the product loop without exposing production backend mechanics, private execution architecture, customer data, secrets, or internal operational documents.
+It showcases the founder-facing dashboard, CurbAlarm Growth Sprint, AI CMO chat shell, approval queue, CMO brief, Studio pipeline, and stable agent surfaces using mocked data only.
 
 ## Setup
 
